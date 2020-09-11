@@ -1,0 +1,124 @@
+
+/* Header and Body styling */
+header {
+    padding: 1px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  body {
+    background-color:white;
+    margin:0px;
+  padding: 0px;
+  border-style: solid;
+    border-width: 30px;
+    border-color: rgba(250, 244, 244, 0.966);
+    border-left-width: 220px;
+    border-right: 0;
+    border-top: 0;
+  }
+ 
+  
+
+
+ 
+/* Style for the Navbar */
+  .navbar {
+    background-color: rgba(219, 214, 214, 0.767); 
+    position: fixed;
+    height: 100%; 
+    width: 220px;
+    left: 0;
+    top: 230px;
+    z-index: 1;
+  }
+  
+ 
+  .navbar a {
+    padding: 30px 5px 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2b2b2b7c;
+    display: block;
+   bottom: 90px;
+   text-align: center;
+
+  }
+
+  
+  .navbar a:hover {
+    color: #2c94cf;
+  }
+  
+
+
+
+/* Style for the rounded box in index.html */
+  #index {
+      border-radius: 25px;
+      border: 10px solid #449accc4;
+      padding: 20px;
+      width: 600px;
+      height: 200px;
+    position: fixed;
+    left: 35%; 
+    bottom:30px;
+    font-size: 25px; 
+    text-align: justify;
+    text-justify: inter-word;
+    font-family:'Trebuchet MS'
+  
+  }
+
+
+  /* Style for the rounded boxes */
+
+  .box {
+    border-radius: 25px;
+    border: 10px solid #449accc4;
+    padding: 20px;
+    width: 320px;
+    height: 200px;
+    position: fixed; 
+  font-size: 19px; 
+  text-align: justify;
+  text-justify: inter-word;
+  font-family:'Trebuchet MS' ;
+  overflow: hidden;
+
+}
+
+
+
+
+/* Style for comments.html page */
+
+  .background {
+    max-height: 600px;
+    max-width: 60%;
+    background-color:rgba(250, 244, 244, 0.966);
+    position: fixed ; 
+    left:25% ; 
+    overflow-y:auto;
+    scroll-behavior: smooth;
+    
+   
+  }
+
+
+  table, th, td {
+  border: 1px solid #449accc4;
+}
+
+
+
+/* Style for page footers page */
+footer {
+  left: 40px;
+  top: 10px;
+
+}
